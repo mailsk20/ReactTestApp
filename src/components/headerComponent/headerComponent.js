@@ -5,7 +5,7 @@ export default class HeaderComponent extends React.Component {
     render() {
         return(
             <header>
-            <div className="container-fluid">
+                <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-light navbar-fixed-top">
                   <a className="navbar-brand" href="/">
                     <img alt="header" src="/images/logo.JPG" />

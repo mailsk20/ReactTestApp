@@ -11,7 +11,7 @@ export default class Product extends React.Component {
     renderList() {
         console.log('dd', this.props.product);
         return (
-            <div className="col-sm-2 product">
+            <div className="col-md-2 product">
                 <div className="card">
                     <img src="/images/product.png" className="card-img img-fluid" alt="..." />
                     <div className="card-body">

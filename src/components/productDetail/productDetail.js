@@ -34,7 +34,8 @@ class ProductDetail extends  React.Component{
                 </div>
                 <div className="col-md-8">
                     <div className="prod_img text-center">
-                        <img src={`/${product.attributes.links.image}`} className="img-fluid" alt="..."/>
+                            {/*<img src={`/${product.attributes.links.image}`} className="img-fluid" alt="..." />*/}
+                            <img src="/images/product-img.jpg" className="img-fluid" alt="..." />
                     </div>
                     <div className="prod_description">
                         <h3 className="desc_title">Description</h3>

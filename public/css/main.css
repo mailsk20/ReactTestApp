@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+}
+
+.navbar {
+    background-color: #fff;
+}
+    .navbar .navbar-brand,
+    .navbar .navbar-brand:hover {
+        color: red;
+    }
+
+    .navbar .nav-item .nav-link,
+    .navbar .nav-item .nav-link:hover,
+    .navbar .nav-item .nav-link .active {
+        color: #333;
+    }
+
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    }
+
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+/*header {
+    margin-top: 10px;
+}*/
+.container.content {
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.product-list {
+    margin: 0 10%;
+}
+.product-container {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.prodcut-item {
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    width: 140px;
+    padding: 0 10px 5px 10px;
+    margin: 5px 0;
+}
+    .prodcut-item img
+    {
+        height: 100px;
+        width: 100px;
+
+    }
+
+    .prodcut-item .title {
+        font-size: 12px;
+        display: -webkit-box;
+    }
+
+    .prodcut-item .price {
+        color: red;
+        font-weight: bold;
+        display: -webkit-box;
+    }
